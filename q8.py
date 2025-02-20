@@ -8,3 +8,15 @@ ends with one of these letters: p, t, n
 """
 
 # YOUR CODE HERE
+
+one= "ctb"
+midd = "ao"
+last1 = "ptn"
+
+for first in one:
+    for mid in midd:
+        for last in last1:
+            word = first + mid + last
+            print(word) 
+
+
